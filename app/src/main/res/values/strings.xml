@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">parc</string>
+  <string name="app_name">Parc</string>
     <string name="parking_space">Parking space</string>
+    <string name="car_number">car number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="text_view">TextView</string>
+    <string name="add_image">Add Image</string>
 </resources>
