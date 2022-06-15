@@ -5,4 +5,7 @@
     <string name="phone_number">Phone Number</string>
     <string name="text_view">TextView</string>
     <string name="add_image">Add Image</string>
+    <string name="arrival_time">Arrival time</string>
+    <string name="_6_69_am">6:69 AM</string>
+  <string name="departure_time">Departure time</string>
 </resources>
