@@ -14,22 +14,38 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="206dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="@string/parking_space"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="316dp"
-            android:layout_height="294dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
             android:layout_marginTop="4dp"
+            android:id="@+id/recyclerView_secondFragment"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_secondFragment"
+            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_baseline_add_24"
+            android:foregroundGravity="center"
+        />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

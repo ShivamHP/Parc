@@ -59,7 +59,7 @@ class ManageData(context: Context) {
     fun JsonToCarEntry(jsonObject: JSONObject) : CarEntry{
         return CarEntry(
             carNumber = jsonObject.getString("carNumber"),
-            phoneNumber = jsonObject.getInt("phoneNumber"),
+            phoneNumber = jsonObject.getLong("phoneNumber"),
             parkingSpaceAllotted = jsonObject.getString("parkingSpaceAllotted"),
             imgPath = jsonObject.getString("imagePath"),
             arriveTime = jsonObject.get("arriveTime") as Time,

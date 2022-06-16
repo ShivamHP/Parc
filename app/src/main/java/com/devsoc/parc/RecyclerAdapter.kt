@@ -33,7 +33,7 @@ class RecyclerAdapter(private val mList: List<CarEntry>, private val context: Co
         //TODO: Add proper image to imageView
         imageView.setImageResource(R.color.purple_200)
         carNumber.setText(currentCarEntry.carNumber)
-        phoneNumber.setText(currentCarEntry.phoneNumber)
+        phoneNumber.setText(currentCarEntry.phoneNumber.toString())
         arrivalTime.setText("${currentCarEntry.arriveTime.hour} : ${currentCarEntry.arriveTime.min}")
         departureTime.setText("${currentCarEntry.departTime.hour} : ${currentCarEntry.departTime.min}")
     }
